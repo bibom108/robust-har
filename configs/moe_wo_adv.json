@@ -1,0 +1,18 @@
+{
+    "prefix": "moe_wo_adv",
+    "nepoch": 50,
+    "batchsize": 128,
+    "lr": 0.01,
+    "momentum": 0.9,
+    "lr_step_size": 30,
+    "mix": false,
+    "seed": 69,
+    "sigma": [0.25],
+    "adv": false,
+    "num_steps": 10,
+    "num_noise_vec": 1,
+    "no_grad_attack": true,
+    "epsilon": [0.5, 1.0],
+    "warmup": 1,
+    "expert_weight": ["logs/clean_training/0.0/0.0/weight.pt", "logs/robust_train_full/0.25/0.5/weight.pt"]
+}
